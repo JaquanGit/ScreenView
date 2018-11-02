@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_s">3dp</dimen>
+    <dimen name="corner_l">10dp</dimen>
+    <dimen name="stroke_s">1dp</dimen>
+</resources>
