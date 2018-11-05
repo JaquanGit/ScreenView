@@ -19,24 +19,24 @@ compile 'com.github.JaquanGit:ScreenView:v1.0'
 ```
 3.具体使用：（详情见MainActivity.java）
 ```
-初始化组件：
+// 初始化组件：
 ScreenDialog dialog = new ScreenDialog(context);
-设置数据结构（Bean）
+// 设置数据结构（Bean）
 dialog.setDataToView(getBody());
-设置显示在哪个组件下方：
+// 设置显示在哪个组件下方：
 dialog.underBy(view);
-设置为多选：（默认单选）
+// 设置为多选：（默认单选）
 dialog.setMultiChoose(true);
-设置筛选框背景样式：
+// 设置筛选框背景样式：
 dialog.setBodyBgResource(R.drawable.xx);
-设置“取消”和“确定”按钮：（四个参数分别为：“确定”按钮背景样式，“确定”按钮文字颜色，“取消”按钮背景样式，“取消”按钮文字颜色）
+// 设置“取消”和“确定”按钮：（四个参数分别为：“确定”按钮背景样式，“确定”按钮文字颜色，“取消”按钮背景样式，“取消”按钮文字颜色）
 dialog.setUpFunctionButtonsResource(R.drawable.xx, R.color.xx, R.drawable.xx, R.color.xx);
-设置列数：（默认count==4）
+// 设置列数：（默认count==4）
 dialog.setUpColumnCount(count);
-设置单个筛选按钮对应单元格宽度：（单位：百分比 值：(0,1] 默认percent==0.8f）
+// 设置单个筛选按钮对应单元格宽度：（单位：百分比 值：(0,1] 默认percent==0.8f）
 dialog.setItemWidthPercent(percent);
-设置筛选按钮文字大小：（单位：sp 默认：size==12）
+// 设置筛选按钮文字大小：（单位：sp 默认：size==12）
 dialog.setItemTextSize(size);
-设置“取消”和“确定”按钮文字大小：（单位：sp 默认size==14）
+// 设置“取消”和“确定”按钮文字大小：（单位：sp 默认size==14）
 dialog.setFunctionButtonTextSize(size);
 ```
