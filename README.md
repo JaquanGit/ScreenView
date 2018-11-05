@@ -42,3 +42,5 @@ dialog.setItemTextSize(size);
 // 设置“取消”和“确定”按钮文字大小：（单位：sp 默认size==14）
 dialog.setFunctionButtonTextSize(size);
 ```
+# ScreenShot
+![image](https://github.com/JaquanGit/ScreenView/blob/master/screenshots/screen.gif)
