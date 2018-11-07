@@ -2,6 +2,7 @@ package com.zuicool.screenviewlibrary.screen.dialog;
 
 import android.view.View;
 
+import com.zuicool.screenviewlibrary.screen.ITitle;
 import com.zuicool.screenviewlibrary.screen.bean.Body;
 
 /**
@@ -9,7 +10,7 @@ import com.zuicool.screenviewlibrary.screen.bean.Body;
  * 筛选弹框，最终使用的组件
  */
 
-public interface IScreenDialog {
+public interface IScreenDialog extends ITitle {
     /**
      * 设置数据源
      *
@@ -93,25 +94,4 @@ public interface IScreenDialog {
      * @param isMulti 单选或多选。true：多选；false：单选
      */
     void setMultiChoose(boolean isMulti);
-
-    /**
-     * 设置装饰竖线颜色
-     *
-     * @param color 形式：R.color.xx
-     */
-    void setDecorateColor(int color);
-
-    /**
-     * 设置标题文本字体大小
-     *
-     * @param size 单位：sp
-     */
-    void setTitleTextSize(int size);
-
-    /**
-     * 设置标题文本字体颜色
-     *
-     * @param color 形式：R.color.xx
-     */
-    void setTitleTextColor(int color);
 }

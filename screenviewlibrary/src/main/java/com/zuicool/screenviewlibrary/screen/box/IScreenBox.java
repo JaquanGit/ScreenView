@@ -1,5 +1,6 @@
 package com.zuicool.screenviewlibrary.screen.box;
 
+import com.zuicool.screenviewlibrary.screen.ITitle;
 import com.zuicool.screenviewlibrary.screen.bean.Body;
 import com.zuicool.screenviewlibrary.screen.dialog.IScreenDialog;
 
@@ -8,7 +9,7 @@ import com.zuicool.screenviewlibrary.screen.dialog.IScreenDialog;
  * 筛选item集合+按钮容器组合
  */
 
-interface IScreenBox {
+interface IScreenBox extends ITitle {
     /**
      * 设置数据源
      *
@@ -75,27 +76,6 @@ interface IScreenBox {
      * @param isMultiChoose true：多选；false：单选
      */
     void setMultiChoose(boolean isMultiChoose);
-
-    /**
-     * 设置装饰竖线颜色
-     *
-     * @param color 形式：R.color.xx
-     */
-    void setDecorateColor(int color);
-
-    /**
-     * 设置标题文本字体大小
-     *
-     * @param size 单位：sp
-     */
-    void setTitleTextSize(int size);
-
-    /**
-     * 设置标题文本字体大小
-     *
-     * @param color 形式：R.color.xx
-     */
-    void setTitleTextColor(int color);
 
     /**
      * 筛选项重置

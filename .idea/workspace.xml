@@ -11,41 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c58427c-15e8-4d96-9e20-b81faa4513c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBodyItem.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/CancelButton.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/ITitle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_myapplication_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_myapplication_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_myapplication_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_myapplication_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_myapplication_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_myapplication_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_myapplication_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_myapplication_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_screenviewlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_screenviewlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_screenviewlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_screenviewlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_screenviewlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_screenviewlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScreenView.iml" afterPath="$PROJECT_DIR$/ScreenView.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapplication/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/myapplication/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/screenviewlibrary.iml" afterPath="$PROJECT_DIR$/screenviewlibrary/screenviewlibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/bean/Body.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/bean/Body.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/bean/Item.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/bean/Item.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBody.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBody.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBody.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBody.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/title/IScreenBodyItemTitle.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/title/IScreenBodyItemTitle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/IScreenBox.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/IScreenBox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/ScreenBox.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/ScreenBox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/constant/ScreenConstant.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/constant/ScreenConstant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/IScreenDialog.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/IScreenDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/OnResultListener.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/OnResultListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/ScreenDialog.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/ScreenDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/AbsFunctionButton.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/AbsFunctionButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/ConfirmButton.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/ConfirmButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/FunctionButtonRegionView.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/FunctionButtonRegionView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunctionButton.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunctionButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunctionButtonRegion.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunctionButtonRegion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/IItemView.java" afterPath="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/IItemView.java" />
     </list>
     <ignored path="ScreenView.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,8 +56,8 @@
       <file leaf-file-name="IScreenDialog.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/IScreenDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2664">
-              <caret line="113" column="33" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+            <state relative-caret-position="113">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -93,8 +66,96 @@
       <file leaf-file-name="IScreenBox.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/IScreenBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="-967">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IItemView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/IItemView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/ItemView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenBodyItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBodyItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IScreenBodyItemSetUp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBodyItemSetUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenBody.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenBox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/ScreenBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="118" column="25" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
+              <folding>
+                <element signature="e#3409#3410#0" expanded="true" />
+                <element signature="e#3464#3465#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/ScreenDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+              <folding>
+                <element signature="e#2941#2942#0" expanded="true" />
+                <element signature="e#2995#2996#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ITitle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/ITitle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -2796,24 +2857,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/function_button/CancelButton.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/function_button/ConfirmButton.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/function_button/FunctionButtonRegionView.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/item_view/IItemView.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/constant/ScreenConstant.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/item_view/ItemView.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/LogUtil.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/box/IScreenBox.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/dialog/OnResultListener.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/function_button/IFunctionButtonRegion.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/util/LogUtil.java" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/res/drawable/solid_yellow_bottom_right_corner_l.xml" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/res/drawable/solid_green_bottom_right_corner_l.xml" />
-        <option value="$PROJECT_DIR$/myapplication/src/main/res/drawable/solid_green_bottom_left_corner_l.xml" />
         <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/body/ScreenBody.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/screenviewlibrary/build.gradle" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/ItemView.java" />
         <option value="$PROJECT_DIR$/myapplication/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/myapplication/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/myapplication/src/main/res/values/styles.xml" />
@@ -2826,27 +2872,42 @@
         <option value="$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/MainActivity.java" />
         <option value="$PROJECT_DIR$/myapplication/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/CancelButton.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/FunctionButtonRegionView.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/ResetButton.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/ConfirmButton.java" />
         <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/bean/Item.java" />
         <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/title/ScreenBodyItemTitle.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBody.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBodyItem.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/ScreenBox.java" />
         <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/OnResetListener.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/IScreenDialog.java" />
         <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/AbsFunctionButton.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBody.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/title/IScreenBodyItemTitle.java" />
         <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBodyItemSetUp.java" />
         <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBodySetUp.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/IScreenBox.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/ScreenDialog.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/constant/ScreenConstant.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/IScreen.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/IScreenDialogAndBoxInterface.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/IScreenInterface.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBodyItem.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunction.java" />
         <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunctionButton.java" />
         <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunctionButtonRegion.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBody.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/ConfirmButton.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/ResetButton.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/IScreenDialogBoxBody.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/IFunction.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/IScreenDialogAndBoxDialog.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/ScreenDialogAndBoxDialog.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/ScreenDialog.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/ScreenDialogBoxBox.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/ScreenBox.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/IScreenDialogBoxBox.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/FunctionButtonRegionView.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/ItemView.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/IScreenDialogBox.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBodyItem.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/IItem.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/IScreenDialog.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/IScreenBox.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBody.java" />
         <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/IItemView.java" />
-        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/constant/ScreenConstant.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/title/IScreenBodyItemTitle.java" />
+        <option value="$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/ITitle.java" />
       </list>
     </option>
   </component>
@@ -2903,106 +2964,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ScreenView">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ScreenView">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="myapplication">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ScreenView">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="myapplication">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="test/java/com/zuicool/myapplication">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ScreenView">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="myapplication">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ScreenView">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="myapplication">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="androidTest/java/com/zuicool/myapplication">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3102,6 +3063,108 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="screen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScreenView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScreenView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screenviewlibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScreenView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScreenView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screenviewlibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item_view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScreenView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ScreenView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screenviewlibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="function_button" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3347,6 +3410,106 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ScreenView">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ScreenView">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="myapplication">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ScreenView">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="myapplication">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test/java/com/zuicool/myapplication">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ScreenView">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="myapplication">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ScreenView">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="myapplication">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="androidTest/java/com/zuicool/myapplication">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3713,7 +3876,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278496" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50293773" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3769,16 +3932,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myapplication/src/main/res/drawable/solid_yellow_bottom_right_corner_l.xml" />
-    <entry file="file://$PROJECT_DIR$/myapplication/src/main/res/drawable/solid_green_bottom_left_corner_l.xml" />
-    <entry file="file://$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/dialog/ScreenDialog.java" />
-    <entry file="file://$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/box/ScreenBox.java" />
-    <entry file="file://$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/screen/body/ScreenBody.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3838,14 +3995,14 @@
     <entry file="file://$PROJECT_DIR$/myapplication/src/main/res/values/dimens.xml" />
     <entry file="file://$PROJECT_DIR$/myapplication/src/main/res/values/colors.xml" />
     <entry file="file://$PROJECT_DIR$/myapplication/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screenviewlibrary/build.gradle">
@@ -3891,13 +4048,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapplication/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapplication/src/main/java/com/zuicool/myapplication/MainActivity.java">
@@ -3925,26 +4082,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/OnResetListener.java">
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/constant/ScreenConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/OnResultListener.java">
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/title/ScreenBodyItemTitle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="771">
+          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/ScreenDialog.java">
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/util/LogUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1585">
-          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -3959,64 +4116,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/ConfirmButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="1008">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding>
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/FunctionButtonRegionView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunctionButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunctionButtonRegion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="261">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/ResetButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        <state relative-caret-position="627">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/IFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/IItemView.java">
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/OnResetListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/ItemView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/util/LogUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -4031,37 +4170,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/bean/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/title/IScreenBodyItemTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/title/ScreenBodyItemTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+        <state relative-caret-position="816">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBodyItemSetUp.java">
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/OnResultListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/IScreenDialogBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/IScreenDialogBoxBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-751">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBodyItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4073,65 +4219,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/title/IScreenBodyItemTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunctionButtonRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/function_button/IFunctionButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="411">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBody.java">
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/IScreenBodyItemSetUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1495">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        <state relative-caret-position="123">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBodyItem.java">
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/IItemView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6456">
-          <caret line="296" column="8" selection-start-line="296" selection-start-column="8" selection-end-line="296" selection-end-column="8" />
+        <state relative-caret-position="89">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/item_view/ItemView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/ScreenDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8086#8087#0" expanded="true" />
-            <element signature="e#8128#8129#0" expanded="true" />
+            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#2995#2996#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/ScreenBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        <state relative-caret-position="431">
+          <caret line="118" column="25" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
           <folding>
-            <element signature="e#2427#2428#0" expanded="true" />
-            <element signature="e#2461#2462#0" expanded="true" />
+            <element signature="e#3409#3410#0" expanded="true" />
+            <element signature="e#3464#3465#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/constant/ScreenConstant.java">
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+        <state relative-caret-position="545">
+          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/body/ScreenBodyItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="153" column="5" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/ITitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/box/IScreenBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="-967">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screenviewlibrary/src/main/java/com/zuicool/screenviewlibrary/screen/dialog/IScreenDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2664">
-          <caret line="113" column="33" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+        <state relative-caret-position="113">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
           <folding />
         </state>
       </provider>

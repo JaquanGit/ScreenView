@@ -1,10 +1,12 @@
 package com.zuicool.screenviewlibrary.screen.body;
 
+import com.zuicool.screenviewlibrary.screen.ITitle;
+
 /**
  * Created by jk on 2018/11/6.
  * 设置Body属性的接口
  */
-interface IScreenBody {
+interface IScreenBody extends ITitle {
 
     /**
      * 设置每行的列数
@@ -40,27 +42,6 @@ interface IScreenBody {
      * @param isMultiChoose true：多选；false：单选
      */
     void setMultiChoose(boolean isMultiChoose);
-
-    /**
-     * 设置装饰竖线颜色
-     *
-     * @param color 形式：R.color.xx
-     */
-    void setDecorateColor(int color);
-
-    /**
-     * 设置标题文本字体大小
-     *
-     * @param size 单位：sp
-     */
-    void setTitleTextSize(int size);
-
-    /**
-     * 设置标题文本字体颜色
-     *
-     * @param color 形式：R.color.xx
-     */
-    void setTitleTextColor(int color);
 
     /**
      * 筛选项重置
