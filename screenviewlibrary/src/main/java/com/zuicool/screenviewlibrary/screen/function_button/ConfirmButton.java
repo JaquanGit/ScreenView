@@ -7,10 +7,7 @@ import android.widget.TextView;
 
 import com.zuicool.screenviewlibrary.R;
 import com.zuicool.screenviewlibrary.screen.bean.Body;
-import com.zuicool.screenviewlibrary.screen.bean.Item;
 import com.zuicool.screenviewlibrary.screen.util.LogUtil;
-
-import java.util.ArrayList;
 
 /**
  * Created by jk on 2018/11/1.
@@ -36,13 +33,12 @@ public class ConfirmButton extends AbsFunctionButton {
         if (body == null) {
             LogUtil.log("body为null");
         }
-        ArrayList<Item> items = body.getItems();
-        LogUtil.log(items.toString());
         if (dialog != null) {
             dialog.onResult(body);
         } else {
             LogUtil.log("ConfirmButton dialog为null");
         }
+        dismissDialog();
     }
 
     @Override
@@ -55,7 +51,7 @@ public class ConfirmButton extends AbsFunctionButton {
     }
 
     @Override
-    public void setUpBody(Body body) {
+    public void setUpBody(Body... body) {
         this.body = body;
     }
 }

@@ -7,7 +7,7 @@ import com.zuicool.screenviewlibrary.screen.bean.Item;
  * Item按钮接口
  */
 
-public interface IItemView {
+interface IItemView {
     /**
      * 根据数据源item显示，如：选中、失活样式
      *

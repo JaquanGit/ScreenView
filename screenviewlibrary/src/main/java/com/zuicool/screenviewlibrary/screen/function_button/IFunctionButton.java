@@ -8,7 +8,7 @@ import com.zuicool.screenviewlibrary.screen.dialog.IScreenDialog;
  * 功能按钮接口（“取消”和“确定”）
  */
 
-public interface IFunctionButton {
+interface IFunctionButton {
     /**
      * 点击按钮
      */
@@ -24,7 +24,7 @@ public interface IFunctionButton {
      *
      * @param body 数据源
      */
-    void setUpBody(Body body);
+    void setUpBody(Body... body);
 
     /**
      * 设置所在dialog，执行dialog消失等

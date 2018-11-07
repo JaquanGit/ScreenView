@@ -6,6 +6,7 @@ import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+import com.zuicool.screenviewlibrary.screen.OnResetListener;
 import com.zuicool.screenviewlibrary.screen.bean.Body;
 import com.zuicool.screenviewlibrary.screen.dialog.IScreenDialog;
 
@@ -16,7 +17,12 @@ import com.zuicool.screenviewlibrary.screen.dialog.IScreenDialog;
 
 public class FunctionButtonRegionView extends LinearLayout implements IFunctionButtonRegion {
     ConfirmButton confirmButton;
-    CancelButton cancelButton;
+    ResetButton resetButton;
+    OnResetListener onResetListener;
+
+    public void setOnResetListener(OnResetListener onResetListener) {
+        this.onResetListener = onResetListener;
+    }
 
     public FunctionButtonRegionView(Context context) {
         this(context, null);
@@ -34,41 +40,54 @@ public class FunctionButtonRegionView extends LinearLayout implements IFunctionB
     private void init() {
         setOrientation(HORIZONTAL);
         confirmButton = new ConfirmButton(getContext());
-        cancelButton = new CancelButton(getContext());
+        resetButton = new ResetButton(getContext());
 
-        addView(cancelButton);
+        addView(resetButton);
         addView(confirmButton);
 
         // 设置两个按钮权重为1
         LayoutParams params = new LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT);
         params.weight = 1;
 
+        resetButton.setLayoutParams(params);
         confirmButton.setLayoutParams(params);
-        cancelButton.setLayoutParams(params);
+
+        initListener();
     }
 
     @Override
-    public void setUp(Body body) {
+    public void setUp(Body... body) {
         confirmButton.setUpBody(body);
     }
 
     @Override
     public void setDialog(IScreenDialog dialog) {
         confirmButton.setDialog(dialog);
-        cancelButton.setDialog(dialog);
+        resetButton.setDialog(dialog);
     }
 
     @Override
     public void setUpFunctionButtonsResource(int btnConfirmBgRes, int btnConfirmTextColor, int btnCancelBgRes, int btnCancelTextColor) {
         confirmButton.setUpBackgroundResource(btnConfirmBgRes);
         confirmButton.setTextColor(btnConfirmTextColor);
-        cancelButton.setUpBackgroundResource(btnCancelBgRes);
-        cancelButton.setTextColor(btnCancelTextColor);
+        resetButton.setUpBackgroundResource(btnCancelBgRes);
+        resetButton.setTextColor(btnCancelTextColor);
     }
 
     @Override
     public void setFunctionButtonTextSize(int spSize) {
         confirmButton.setFunctionButtonTextSize(spSize);
-        cancelButton.setFunctionButtonTextSize(spSize);
+        resetButton.setFunctionButtonTextSize(spSize);
+    }
+
+    private void initListener() {
+        resetButton.setOnResetListener(new OnResetListener() {
+            @Override
+            public void onReset() {
+                if (onResetListener != null) {
+                    onResetListener.onReset();
+                }
+            }
+        });
     }
 }

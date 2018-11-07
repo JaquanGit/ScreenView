@@ -20,23 +20,19 @@ import com.zuicool.screenviewlibrary.screen.util.LogUtil;
  */
 
 public class ScreenDialog extends Dialog implements IScreenDialog {
-    ScreenBox screenBox;
-    View underByView;
+    private ScreenBox screenBox;
+    private View underByView;
 
     public ScreenDialog(@NonNull Context context) {
         super(context, R.style.FullScreenDialog);
-        init();
-    }
-
-    private void init() {
-        screenBox = new ScreenBox(getContext());
-        setContentView(screenBox);
-        setDialog();
     }
 
     @Override
-    public void setDataToView(Body body) {
-        screenBox.setUp(body);
+    public void setDataToView(Body... bodies) {
+        screenBox = new ScreenBox(getContext());
+        screenBox.setUp(bodies);
+        setContentView(screenBox);
+        setDialog();
     }
 
     @Override
@@ -79,7 +75,7 @@ public class ScreenDialog extends Dialog implements IScreenDialog {
     }
 
     @Override
-    public void onResult(Body body) {
+    public void onResult(Body... body) {
         if (onResultListener != null) {
             onResultListener.onResult(body);
         }
@@ -115,6 +111,26 @@ public class ScreenDialog extends Dialog implements IScreenDialog {
         screenBox.setMultiChoose(isMulti);
     }
 
+    @Override
+    public void setDecorateColor(int color) {
+        screenBox.setDecorateColor(color);
+    }
+
+    @Override
+    public void setTitleTextSize(int size) {
+        screenBox.setTitleTextSize(size);
+    }
+
+    @Override
+    public void setTitleTextColor(int color) {
+        screenBox.setTitleTextColor(color);
+    }
+
+    /**
+     * 计算underByView的屏幕位置
+     *
+     * @return 高度，单位：px
+     */
     private int[] getLocation() {
         if (underByView != null) {
             int[] location = new int[2];

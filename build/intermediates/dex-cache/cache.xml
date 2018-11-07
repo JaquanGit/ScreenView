@@ -3,51 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="E:\GitHub\ScreenView\myapplication\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_5818dbad84d64c7aa998ff14695239f7831e51d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_4587515df70b11ae990e217c69c9b3a61733a049.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\GitHub\ScreenView\myapplication\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_2c9fa76288489a1345fcdc3603f135244f41ab68.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\GitHub\ScreenView\myapplication\build\intermediates\exploded-aar\ScreenView\screenviewlibrary\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="1bfb3e23607ed16a3e3c89a018ccdc29dfa54c58">
-        <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\ScreenView-screenviewlibrary-unspecified_1f935686e04b3c1893ff35ea38bd6284a0e8c385.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\GitHub\ScreenView\myapplication\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_0d083c58117f1faa527bfd061ebbc88e29a94ac6.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
         optimize="true"
@@ -84,6 +39,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\GitHub\ScreenView\myapplication\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_5818dbad84d64c7aa998ff14695239f7831e51d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_4587515df70b11ae990e217c69c9b3a61733a049.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\GitHub\ScreenView\myapplication\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -102,6 +75,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\GitHub\ScreenView\myapplication\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_2c9fa76288489a1345fcdc3603f135244f41ab68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GitHub\ScreenView\myapplication\build\intermediates\exploded-aar\ScreenView\screenviewlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9ed9c65a107ab9c38efd10ee58f55e9b5ec391a1">
+        <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\ScreenView-screenviewlibrary-unspecified_1f935686e04b3c1893ff35ea38bd6284a0e8c385.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\GitHub\ScreenView\myapplication\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -117,6 +108,15 @@
         revision="25.0.3"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
         <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_4cdffec9b685a88fb7f82d64d627907cfae16e93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\GitHub\ScreenView\myapplication\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="E:\GitHub\ScreenView\myapplication\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_0d083c58117f1faa527bfd061ebbc88e29a94ac6.jar" />
     </item>
     <item
         is-multidex="false"

@@ -13,9 +13,9 @@ public interface IScreenDialog {
     /**
      * 设置数据源
      *
-     * @param body 数据源
+     * @param bodies 数据源
      */
-    void setDataToView(Body body);
+    void setDataToView(Body... bodies);
 
     /**
      * 设置每行列数
@@ -46,7 +46,7 @@ public interface IScreenDialog {
      *
      * @param body 回调参数，传给使用者
      */
-    void onResult(Body body);
+    void onResult(Body... body);
 
     /**
      * 设置“取消”和“确定”按钮
@@ -93,4 +93,25 @@ public interface IScreenDialog {
      * @param isMulti 单选或多选。true：多选；false：单选
      */
     void setMultiChoose(boolean isMulti);
+
+    /**
+     * 设置装饰竖线颜色
+     *
+     * @param color 形式：R.color.xx
+     */
+    void setDecorateColor(int color);
+
+    /**
+     * 设置标题文本字体大小
+     *
+     * @param size 单位：sp
+     */
+    void setTitleTextSize(int size);
+
+    /**
+     * 设置标题文本字体颜色
+     *
+     * @param color 形式：R.color.xx
+     */
+    void setTitleTextColor(int color);
 }

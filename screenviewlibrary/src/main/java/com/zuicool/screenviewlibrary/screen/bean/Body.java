@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 
 public class Body {
-    private String title;// 标题，暂时没用到
+    private String title;// 标题
     private ArrayList<Item> items;// 筛选item集合
 
     public String getTitle() {

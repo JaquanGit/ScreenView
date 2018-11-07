@@ -8,13 +8,13 @@ import com.zuicool.screenviewlibrary.screen.dialog.IScreenDialog;
  * 底部按钮容器组件接口（“取消”和“确定”）
  */
 
-public interface IFunctionButtonRegion {
+interface IFunctionButtonRegion {
     /**
      * 设置Body数据源，方便点击按钮获取当前选中和失活的数据
      *
      * @param body 数据源
      */
-    void setUp(Body body);
+    void setUp(Body... body);
 
     /**
      * 所在的dialog，方便执行dialog消失

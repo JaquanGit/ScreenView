@@ -8,5 +8,5 @@ import com.zuicool.screenviewlibrary.screen.bean.Body;
  */
 
 public interface OnResultListener {
-    void onResult(Body body);
+    void onResult(Body... body);
 }

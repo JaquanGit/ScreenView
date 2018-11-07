@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.zuicool.screenviewlibrary.R;
+import com.zuicool.screenviewlibrary.screen.OnResetListener;
 import com.zuicool.screenviewlibrary.screen.bean.Body;
 import com.zuicool.screenviewlibrary.screen.body.ScreenBody;
 import com.zuicool.screenviewlibrary.screen.dialog.IScreenDialog;
@@ -14,11 +15,12 @@ import com.zuicool.screenviewlibrary.screen.function_button.FunctionButtonRegion
 
 /**
  * Created by jk on 2018/10/31.
+ * 由筛选Body+底部按钮组成
  */
 
 public class ScreenBox extends LinearLayout implements IScreenBox {
     ScreenBody screenBody;
-    FunctionButtonRegionView buttonRegionView;
+    FunctionButtonRegionView buttonRegionView;// 底部按钮，包括：重置、确定
 
     public ScreenBox(Context context) {
         this(context, null);
@@ -35,25 +37,51 @@ public class ScreenBox extends LinearLayout implements IScreenBox {
 
     private void init() {
         setOrientation(VERTICAL);
+
         screenBody = new ScreenBody(getContext());
         screenBody.setLayoutParams(new LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-        screenBody.setBgResource(R.drawable.solid_white);
+
         buttonRegionView = new FunctionButtonRegionView(getContext());
         buttonRegionView.setLayoutParams(new LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+
         addView(screenBody);
         addView(buttonRegionView);
+
+        initListener();
     }
 
+    @Override
+    public void setUp(Body... bodies) {
+        screenBody.setUpBody(bodies);
+        screenBody.setBgResource(R.drawable.solid_white);
+        buttonRegionView.setUp(bodies);
+    }
+
+    @Override
     public void setMultiChoose(boolean multiChoose) {
         screenBody.setMultiChoose(multiChoose);
     }
 
     @Override
-    public void setUp(Body body) {
-        screenBody.setUpBody(body);
-        buttonRegionView.setUp(body);
+    public void setDecorateColor(int color) {
+        screenBody.setDecorateColor(color);
+    }
+
+    @Override
+    public void setTitleTextSize(int size) {
+        screenBody.setTitleTextSize(size);
+    }
+
+    @Override
+    public void setTitleTextColor(int color) {
+        screenBody.setTitleTextColor(color);
+    }
+
+    @Override
+    public void reset() {
+        screenBody.reset();
     }
 
     @Override
@@ -89,5 +117,15 @@ public class ScreenBox extends LinearLayout implements IScreenBox {
     @Override
     public void setItemWidthPercent(float percent) {
         screenBody.setItemWidthPercent(percent);
+    }
+
+    private void initListener() {
+        // 重置回调
+        buttonRegionView.setOnResetListener(new OnResetListener() {
+            @Override
+            public void onReset() {
+                screenBody.reset();
+            }
+        });
     }
 }

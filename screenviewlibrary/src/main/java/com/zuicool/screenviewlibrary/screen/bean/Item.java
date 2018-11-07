@@ -9,8 +9,8 @@ public class Item {
     private int key;// id（我将“全部”按钮的key设为-1，可做特殊处理）
     private String value;// 按钮显示的文本
     private boolean isActive;// 选中状态或失活（未选中）状态，选中为true、失活为false
-    private int textSize;// 字体大小，单位sp
-    private int itemWidth;// item的宽度，单位px
+    transient private int textSize;// 字体大小，单位sp
+    transient private int itemWidth;// item的宽度，单位px
 
     public int getKey() {
         return key;

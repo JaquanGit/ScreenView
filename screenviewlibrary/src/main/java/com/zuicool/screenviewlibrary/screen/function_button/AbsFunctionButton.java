@@ -19,7 +19,7 @@ import com.zuicool.screenviewlibrary.screen.util.LogUtil;
  */
 
 public abstract class AbsFunctionButton extends LinearLayout implements IFunctionButton {
-    Body body;
+    Body[] body;// 用于点击“确定”后获取所有筛选数据
     TextView tvButton;
     IScreenDialog dialog;
 
@@ -54,7 +54,6 @@ public abstract class AbsFunctionButton extends LinearLayout implements IFunctio
             @Override
             public void onClick(View v) {
                 click();
-                dismissDialog();
             }
         });
     }

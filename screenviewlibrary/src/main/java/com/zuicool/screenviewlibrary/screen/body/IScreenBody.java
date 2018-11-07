@@ -1,34 +1,10 @@
 package com.zuicool.screenviewlibrary.screen.body;
 
-import com.zuicool.screenviewlibrary.screen.bean.Body;
-import com.zuicool.screenviewlibrary.screen.bean.Item;
-
 /**
- * Created by jk on 2018/10/31.
- * 基本筛选单元接口
+ * Created by jk on 2018/11/6.
+ * 设置Body属性的接口
  */
-
-public interface IScreenBody {
-    /**
-     * 设置数据源
-     *
-     * @param body 标题+筛选item
-     */
-    void setUpBody(Body body);
-
-    /**
-     * 执行单选
-     *
-     * @param item 按下按钮的数据
-     */
-    void executeSingleChoose(Item item);
-
-    /**
-     * 执行多选
-     *
-     * @param item 按下按钮的数据
-     */
-    void executeMultiChoose(Item item);
+interface IScreenBody {
 
     /**
      * 设置每行的列数
@@ -57,4 +33,37 @@ public interface IScreenBody {
      * @param percent 百分比 (0,1]
      */
     void setItemWidthPercent(float percent);
+
+    /**
+     * 设置多选或单选
+     *
+     * @param isMultiChoose true：多选；false：单选
+     */
+    void setMultiChoose(boolean isMultiChoose);
+
+    /**
+     * 设置装饰竖线颜色
+     *
+     * @param color 形式：R.color.xx
+     */
+    void setDecorateColor(int color);
+
+    /**
+     * 设置标题文本字体大小
+     *
+     * @param size 单位：sp
+     */
+    void setTitleTextSize(int size);
+
+    /**
+     * 设置标题文本字体颜色
+     *
+     * @param color 形式：R.color.xx
+     */
+    void setTitleTextColor(int color);
+
+    /**
+     * 筛选项重置
+     */
+    void reset();
 }

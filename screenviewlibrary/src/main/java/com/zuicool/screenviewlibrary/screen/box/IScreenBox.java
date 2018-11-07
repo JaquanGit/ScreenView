@@ -8,13 +8,13 @@ import com.zuicool.screenviewlibrary.screen.dialog.IScreenDialog;
  * 筛选item集合+按钮容器组合
  */
 
-public interface IScreenBox {
+interface IScreenBox {
     /**
      * 设置数据源
      *
-     * @param body 数据源
+     * @param bodies 数据源，可变数组
      */
-    void setUp(Body body);
+    void setUp(Body... bodies);
 
     /**
      * 设置每行列数
@@ -26,7 +26,7 @@ public interface IScreenBox {
     /**
      * 设置所在dialog，方便dialog消失执行
      *
-     * @param dialog
+     * @param dialog 所在dialog
      */
     void setDialog(IScreenDialog dialog);
 
@@ -68,4 +68,38 @@ public interface IScreenBox {
      * @param percent 百分比 （0,1]
      */
     void setItemWidthPercent(float percent);
+
+    /**
+     * 设置多选或单选
+     *
+     * @param isMultiChoose true：多选；false：单选
+     */
+    void setMultiChoose(boolean isMultiChoose);
+
+    /**
+     * 设置装饰竖线颜色
+     *
+     * @param color 形式：R.color.xx
+     */
+    void setDecorateColor(int color);
+
+    /**
+     * 设置标题文本字体大小
+     *
+     * @param size 单位：sp
+     */
+    void setTitleTextSize(int size);
+
+    /**
+     * 设置标题文本字体大小
+     *
+     * @param color 形式：R.color.xx
+     */
+    void setTitleTextColor(int color);
+
+    /**
+     * 筛选项重置
+     */
+    void reset();
+
 }
