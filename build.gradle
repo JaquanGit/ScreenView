@@ -27,8 +27,8 @@ ext {
             // Dependencies
             supportLibraryVersion: "25.3.1",
             //
-            versionCode          : 2,
-            versionName          : "2.0"
+            versionCode          : 201,
+            versionName          : "2.1"
     ]
 
 }
