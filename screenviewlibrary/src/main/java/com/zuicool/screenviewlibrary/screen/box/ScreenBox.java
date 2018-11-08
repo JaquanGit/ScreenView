@@ -128,4 +128,14 @@ public class ScreenBox extends LinearLayout implements IScreenBox {
             }
         });
     }
+
+    @Override
+    public void setItemBgResource(int activeResource, int inActiveResource) {
+        screenBody.setItemBgResource(activeResource, inActiveResource);
+    }
+
+    @Override
+    public void setItemTextColor(int activeColor, int inActiveColor) {
+        screenBody.setItemTextColor(activeColor, inActiveColor);
+    }
 }

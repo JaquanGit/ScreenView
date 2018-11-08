@@ -107,4 +107,18 @@ public class ScreenBody extends LinearLayout implements IScreenBody, IScreenBody
             item.setItemWidthPercent(percent);
         }
     }
+
+    @Override
+    public void setItemBgResource(int activeResource, int inActiveResource) {
+        for (ScreenBodyItem item : screenBodyItems) {
+            item.setItemBgResource(activeResource, inActiveResource);
+        }
+    }
+
+    @Override
+    public void setItemTextColor(int activeColor, int inActiveColor) {
+        for (ScreenBodyItem item : screenBodyItems) {
+            item.setItemTextColor(activeColor, inActiveColor);
+        }
+    }
 }

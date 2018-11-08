@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         customDialog.setMultiChoose(true);
         customDialog.setBodyBgResource(R.drawable.solid_yellow_stroke_red_bottom_corner_s);
         customDialog.setUpFunctionButtonsResource(R.drawable.solid_yellow_bottom_right_corner_l, R.color.red,
-                R.drawable.solid_green_bottom_left_corner_l, R.color.black);
+                R.drawable.solid_green_bottom_left_corner_l, R.color.white);
         customDialog.setUpColumnCount(5);
         customDialog.setItemWidthPercent(0.5f);
         customDialog.setFunctionButtonTextSize(15);
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         customDialog2.setMultiChoose(true);
         customDialog2.setBodyBgResource(R.drawable.solid_yellow_stroke_red_bottom_corner_s);
         customDialog2.setUpFunctionButtonsResource(R.drawable.solid_yellow_bottom_right_corner_l, R.color.red,
-                R.drawable.solid_green_bottom_left_corner_l, R.color.black);
+                R.drawable.solid_green_bottom_left_corner_l, R.color.colorPrimary);
         customDialog2.setUpColumnCount(5);
         customDialog2.setItemWidthPercent(0.5f);
         customDialog2.setFunctionButtonTextSize(15);
@@ -122,6 +122,8 @@ public class MainActivity extends AppCompatActivity {
         customDialog2.setDecorateColor(R.color.colorPrimary);
         customDialog2.setTitleTextSize(15);
         customDialog2.setTitleTextColor(R.color.green);
+        customDialog2.setItemBgResource(R.drawable.solid_green_bottom_left_corner_l, R.drawable.solid_red_bottom_right_corner_l);
+        customDialog2.setItemTextColor(R.color.red, R.color.yellow);
         customDialog2.setOnResultListener(new OnResultListener() {
             @Override
             public void onResult(Body... body) {

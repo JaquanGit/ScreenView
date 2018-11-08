@@ -2,6 +2,7 @@ package com.zuicool.screenviewlibrary.screen.dialog;
 
 import android.view.View;
 
+import com.zuicool.screenviewlibrary.screen.IItem;
 import com.zuicool.screenviewlibrary.screen.ITitle;
 import com.zuicool.screenviewlibrary.screen.bean.Body;
 
@@ -10,7 +11,7 @@ import com.zuicool.screenviewlibrary.screen.bean.Body;
  * 筛选弹框，最终使用的组件
  */
 
-public interface IScreenDialog extends ITitle {
+public interface IScreenDialog extends ITitle, IItem {
     /**
      * 设置数据源
      *

@@ -156,4 +156,14 @@ public class ScreenDialog extends Dialog implements IScreenDialog {
         int resourceId = getContext().getResources().getIdentifier("status_bar_height", "dimen", "android");
         return getContext().getResources().getDimensionPixelSize(resourceId);
     }
+
+    @Override
+    public void setItemBgResource(int activeResource, int inActiveResource) {
+        screenBox.setItemBgResource(activeResource, inActiveResource);
+    }
+
+    @Override
+    public void setItemTextColor(int activeColor, int inActiveColor) {
+        screenBox.setItemTextColor(activeColor, inActiveColor);
+    }
 }

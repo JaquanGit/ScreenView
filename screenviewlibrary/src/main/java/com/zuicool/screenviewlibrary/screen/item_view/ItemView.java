@@ -95,14 +95,14 @@ public class ItemView extends LinearLayout implements IItemView {
     }
 
     @Override
-    public void setBackgroundResource(int activeResource, int inActiveResource) {
+    public void setItemBgResource(int activeResource, int inActiveResource) {
         this.activeBackgroundResource = activeResource;
         this.inActiveBackgroundResource = inActiveResource;
     }
 
     @Override
-    public void setTextColor(int activeColor, int inActiveColor) {
-        this.activeTextColor = activeColor;
-        this.inActiveTextColor = inActiveColor;
+    public void setItemTextColor(int activeColor, int inActiveColor) {
+        this.activeTextColor = getResources().getColor(activeColor);
+        this.inActiveTextColor = getResources().getColor(inActiveColor);
     }
 }

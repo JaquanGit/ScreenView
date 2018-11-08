@@ -1,12 +1,13 @@
 package com.zuicool.screenviewlibrary.screen.body;
 
+import com.zuicool.screenviewlibrary.screen.IItem;
 import com.zuicool.screenviewlibrary.screen.ITitle;
 
 /**
  * Created by jk on 2018/11/6.
  * 设置Body属性的接口
  */
-interface IScreenBody extends ITitle {
+interface IScreenBody extends ITitle, IItem {
 
     /**
      * 设置每行的列数

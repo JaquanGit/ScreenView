@@ -1,5 +1,6 @@
 package com.zuicool.screenviewlibrary.screen.box;
 
+import com.zuicool.screenviewlibrary.screen.IItem;
 import com.zuicool.screenviewlibrary.screen.ITitle;
 import com.zuicool.screenviewlibrary.screen.bean.Body;
 import com.zuicool.screenviewlibrary.screen.dialog.IScreenDialog;
@@ -9,7 +10,7 @@ import com.zuicool.screenviewlibrary.screen.dialog.IScreenDialog;
  * 筛选item集合+按钮容器组合
  */
 
-interface IScreenBox extends ITitle {
+interface IScreenBox extends ITitle, IItem {
     /**
      * 设置数据源
      *

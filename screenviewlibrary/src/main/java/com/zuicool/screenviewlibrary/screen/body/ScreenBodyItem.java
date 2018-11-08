@@ -36,6 +36,9 @@ public class ScreenBodyItem extends LinearLayout implements IScreenBody, IScreen
     int columnCount = ScreenConstant.DEFAULT_COLUMN_COUNT;// 列数
     float itemWidthPercent = ScreenConstant.DEFAULT_ITEM_WIDTH_PERCENT;// 文本宽度占单元格宽度百分比
 
+    int activeResource, inActiveResource;
+    int activeColor, inActiveColor;
+
     public ScreenBodyItem(Context context) {
         this(context, null);
     }
@@ -291,6 +294,22 @@ public class ScreenBodyItem extends LinearLayout implements IScreenBody, IScreen
         }
     }
 
+    @Override
+    public void setItemBgResource(int activeResource, int inActiveResource) {
+        if (activeResource != 0 && inActiveResource != 0) {
+            this.activeResource = activeResource;
+            this.inActiveResource = inActiveResource;
+        }
+    }
+
+    @Override
+    public void setItemTextColor(int activeColor, int inActiveColor) {
+        if (activeColor != 0 && inActiveColor != 0) {
+            this.activeColor = activeColor;
+            this.inActiveColor = inActiveColor;
+        }
+    }
+
     private class BodyAdapter extends BaseAdapter {
         ArrayList<Item> items;
 
@@ -317,6 +336,12 @@ public class ScreenBodyItem extends LinearLayout implements IScreenBody, IScreen
         public View getView(int position, View convertView, ViewGroup parent) {
             ItemView view = new ItemView(getContext());
             Item item = items.get(position);
+            if (activeResource != 0 && inActiveResource != 0) {
+                view.setItemBgResource(activeResource, inActiveResource);
+            }
+            if (activeColor != 0 && inActiveColor != 0) {
+                view.setItemTextColor(activeColor, inActiveColor);
+            }
             view.show(item);
             return view;
         }
