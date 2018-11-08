@@ -8,8 +8,8 @@ android {
         applicationId "com.zuicool.myapplication"
         minSdkVersion var.minSdkVersion
         targetSdkVersion var.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode var.versionCode
+        versionName "$var.versionName"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
