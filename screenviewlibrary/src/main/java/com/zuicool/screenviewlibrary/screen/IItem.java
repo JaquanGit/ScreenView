@@ -2,6 +2,7 @@ package com.zuicool.screenviewlibrary.screen;
 
 /**
  * Created by jk on 2018/11/8.
+ * Item通用接口
  */
 
 public interface IItem {

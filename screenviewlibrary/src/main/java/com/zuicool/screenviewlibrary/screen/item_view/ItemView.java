@@ -73,10 +73,6 @@ public class ItemView extends LinearLayout implements IItemView {
         }
     }
 
-    private int getDefaultItemWidth() {
-        return getResources().getDisplayMetrics().widthPixels / 8;
-    }
-
     private int getTextPadding() {
         DisplayMetrics metrics = getResources().getDisplayMetrics();
         return metrics.heightPixels / 200;
