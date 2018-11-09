@@ -16,7 +16,7 @@ compile 'com.github.JaquanGit:ScreenView:v2.1'
 ```
 3.使用方法：（详情见MainActivity.java）
 ```
-customDialog2 = new ScreenDialog(MainActivity.this);
+ScreenDialog customDialog2 = new ScreenDialog(MainActivity.this);
 // 设置数据源
 customDialog2.setDataToView(getBody3());
 // 设置显示在哪个组件下方
